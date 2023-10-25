@@ -10,5 +10,5 @@ from src.Ejercicio1 import MayorEdad
       (9, "Eres menor de edad"),
       (40, "Eres mayor de edad")
     ])
-def test_MayorEdad_params(input_n1, expected):
-    assert MayorEdad(input_n1) == expected
+def test_MayorEdad_params(edad, expected):
+    assert MayorEdad(edad) == expected
