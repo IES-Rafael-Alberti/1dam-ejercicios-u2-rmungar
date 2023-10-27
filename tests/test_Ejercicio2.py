@@ -10,5 +10,5 @@ from src.Ejercicio2 import contraseña
       ("aitortilla", "Contraseña incorrecta"),
       ("noaitortilla", "Contraseña incorrecta")
     ])
-def test_contraseña_params(contraseña_introducida  , expected):
+def test_contraseña_params(contraseña_introducida, expected):
     assert contraseña()==expected

@@ -1,18 +1,17 @@
 num1 = float(input("Dame un número: "))
 num2 = float(input("Dame otro número: "))
 
-def division():
+def division(num1, num2):
     if num2 == 0:
         return "ERROR"
     else:
         return num1/num2
     
-def main():
-    if num2 == 0 :
-        print("ERROR")
+def main(num1, num2):
+    if num2 != 0:
+        print (num1/num2)
     else:
-        print(num1/num2)
-
+        print ("ERROR")
 
 if __name__ == "__main__":
-    main()    
+    main(num1, num2)
