@@ -2,7 +2,7 @@ import pytest
 from src.Ejercicio2 import contraseña
 
 @pytest.mark.parametrize(
-"contraseña_introducida = , expected",
+"contraseña_introducida, expected",
     [
       ("rmungar1209", "Contraseña correcta"),
       ("RMUNGAR1209", "Contraseña correcta"),
@@ -11,4 +11,4 @@ from src.Ejercicio2 import contraseña
       ("noaitortilla", "Contraseña incorrecta")
     ])
 def test_contraseña_params(contraseña_introducida, expected):
-    assert contraseña()==expected
+    assert contraseña(contraseña_introducida)== expected
