@@ -6,7 +6,7 @@ def MayorEdad(edad):
         return "Eres menor de edad"
 
 def main():
-    edad = MayorEdad()
+    edad = int(input("Dime tu edad: "))
 
     if MayorEdad(edad):
         print("Eres mayor de edad.")
