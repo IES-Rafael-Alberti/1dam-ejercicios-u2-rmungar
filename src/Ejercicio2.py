@@ -1,4 +1,4 @@
-
+contraseña_guardada = "rmungar1209" 
 def contraseña(contraseña_introducida):
     
     if contraseña_introducida == contraseña:
@@ -7,7 +7,6 @@ def contraseña(contraseña_introducida):
         return "Contraseña incorrecta" 
  
 def main():
-    contraseña_guardada = "rmungar1209" 
     contraseña_introducida = input("Escriba la contraseña: ")
     contraseña_introducida = contraseña_introducida.lower()
     if contraseña_guardada == contraseña_introducida :
