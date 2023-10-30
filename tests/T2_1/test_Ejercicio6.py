@@ -1,5 +1,5 @@
 import pytest
-from src.Ejercicio6 import Grupo
+from src.P2_1.Ejercicio6 import Grupo
 
 @pytest.mark.parametrize(
 "nombre, sexo, expected",

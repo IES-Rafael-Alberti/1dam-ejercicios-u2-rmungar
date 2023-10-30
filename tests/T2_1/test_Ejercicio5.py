@@ -1,5 +1,5 @@
 import pytest
-from src.Ejercicio5 import apto
+from src.P2_1.Ejercicio5 import apto
 
 @pytest.mark.parametrize(
 "edad, ingreso, expected",
