@@ -10,7 +10,6 @@ from src.Ejercicio4 import tipo
         (5, "IMPAR"),
         (17, "IMPAR"),
         (125, "IMPAR")
-    ]
-)
+])
 def test_tipo_params(num, expected):
     assert tipo(num) == expected

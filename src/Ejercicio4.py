@@ -1,4 +1,4 @@
-num=int(input("Dime un número entero: "))
+
 def tipo(num):
     resto = num%2
     if resto == 1:
@@ -8,6 +8,7 @@ def tipo(num):
     
 
 def main(num):
+    num=int(input("Dime un número entero: "))
     resto = num%2
     if resto ==1 :
         print ("IMPAR")
@@ -15,4 +16,4 @@ def main(num):
         print ("PAR")
 
 if __name__ == "__main__":
-    main(num)
+    main()
