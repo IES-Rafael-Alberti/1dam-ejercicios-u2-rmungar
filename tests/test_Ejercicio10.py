@@ -28,7 +28,7 @@ from src.Ejercicio10 import pizza_final
         ( "Pimiento", "vegetariana", "Su pizza es vegetariana y lleva: Tomate, Mozzarella y Pimiento"),
         ( "Jamon", "no vegetariana", "Su pizza es no vegetariana y lleva: Tomate, Mozzarella y Jamon"),
         ( "pimiento", "vegetariana", "Su pizza es vegetariana y lleva: Tomate, Mozzarella y Pimiento"),
-        ( "PIÑA", "ATUN", "Tipo inválido")
+        ( "PIÑA", "ATUN", "Ingrediente no válido")
 ])
-def test_pizza_final_params(tipo, ingrediente, expected):
-    assert pizza_final(tipo, ingrediente) == expected
+def test_pizza_final_params(ingrediente, tipo, expected):
+    assert pizza_final(ingrediente, tipo) == expected
