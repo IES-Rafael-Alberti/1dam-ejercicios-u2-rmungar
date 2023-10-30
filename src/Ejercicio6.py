@@ -1,19 +1,16 @@
 
 def Grupo(nombre, sexo):
-    nombre2 = nombre.upper()
-    sexo2 = sexo.upper()
-    if (sexo2 == "MUJER" and nombre2 < "M") or (sexo2 == "HOMBRE" and nombre2 > "N"):
-        return "A"
+    nombre = nombre.upper()
+    sexo = sexo.upper()
+    if (sexo == "MUJER" and nombre < "M") or (sexo == "HOMBRE" and nombre > "N"):
+        return "Perteneces al grupo A"
     else:
-        return "B"
+        return "Perteneces al grupo B"
 
 def main():
     nombre = input("Ingrese su nombre: ")
     sexo = input("Ingrese su sexo: ")
-    
-    grupo = Grupo(nombre, sexo)
-    
-    print(f"Usted pertenece al grupo {grupo}")
+    print(Grupo(nombre,sexo))
 
 if __name__ == "__main__":
     main()

@@ -1,17 +1,14 @@
 def apto(edad,ingreso):
     
     if edad>=16 and ingreso >= 1000:
-        return True
+        return "Tiene que tributar"
     else:
-        return False
+        return "No tiene que tributar"
     
 def main():
     edad = int(input("Digame su edad: "))
     ingreso = float(input("Digame sus ingresos mensuales: "))
-    if apto(edad, ingreso) == True:
-        print("Usted tiene que tributar")
-    else:
-        print ("Usted no tiene que tributar")
+    print (apto(edad,ingreso))
 
 if __name__ == "__main__":
     main()
