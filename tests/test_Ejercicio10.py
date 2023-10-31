@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio10 import tipo_pizza
+from src.Ejercicio10 import tipo_pizza
 
 @pytest.mark.parametrize(
     "tipo, expected",
@@ -18,7 +18,7 @@ def test_tipo_pizza_params(tipo, expected):
 
 
 
-from src.P2_1.Ejercicio10 import pizza_final
+from src.Ejercicio10 import pizza_final
 
 @pytest.mark.parametrize(
     "ingrediente, tipo, expected",

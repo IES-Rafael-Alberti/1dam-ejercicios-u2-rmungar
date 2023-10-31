@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio8 import rendimiento
+from src.Ejercicio8 import rendimiento
 
 @pytest.mark.parametrize(
 "puntuacion, expected",

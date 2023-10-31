@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio2 import contraseña
+from src.Ejercicio2 import contraseña
 
 @pytest.mark.parametrize(
 "contraseña_introducida, expected",

@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio4 import tipo
+from src.Ejercicio4 import tipo
 
 @pytest.mark.parametrize(
     "num, expected",

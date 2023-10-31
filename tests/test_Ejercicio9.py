@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio9 import calcular_precio_entrada
+from src.Ejercicio9 import calcular_precio_entrada
 
 @pytest.mark.parametrize(
     "edad, expected",

@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio7 import imposicion
+from src.Ejercicio7 import imposicion
 
 @pytest.mark.parametrize(
 "renta, expected",

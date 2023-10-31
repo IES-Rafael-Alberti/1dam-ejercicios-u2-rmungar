@@ -1,5 +1,5 @@
 import pytest
-from src.P2_1.Ejercicio3 import division
+from src.Ejercicio3 import division
 
 @pytest.mark.parametrize(
 "num1, num2, expected",
