@@ -1,6 +1,5 @@
 def repeticion(palabra):
-    cadena= str(palabra + " ")  *10
-    return cadena
+    return str(palabra + " ")  *10 
 
 def main():
     palabra = input("Dime una palabra: ")

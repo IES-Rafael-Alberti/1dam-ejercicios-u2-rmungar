@@ -1,9 +1,10 @@
 def capital(cantidad, interes, num):
-    cont = 0
-    while cont < num:
-        cont + 1
-        cantidad = cantidad * (1 + (interes/100))
-        return cantidad
+    for inicio in range(1, num):
+        cantidad *= (1 + (interes/100)) 
+        print (cantidad)
+
+       
+        
 
 
 def main():
