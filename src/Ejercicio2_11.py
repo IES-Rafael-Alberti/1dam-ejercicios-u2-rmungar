@@ -5,7 +5,7 @@ def vuelta(palabra):
 
 def main():
     palabra = input("Dime un palabra: ")
-    print(vuelta(palabra))
+    vuelta(palabra)
 
 
 

@@ -6,7 +6,7 @@ def eco(entrada):
 
 def main():
     entrada = input("Dime algo: ")
-    print(eco(entrada))
+    eco(entrada)
 
 
 if __name__ == "__main__":

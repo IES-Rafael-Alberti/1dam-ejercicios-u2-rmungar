@@ -8,7 +8,7 @@ def tablas():
         cont += 1
 
 def main():
-    print(tablas())
+    tablas()
 
 
 

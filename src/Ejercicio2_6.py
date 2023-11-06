@@ -9,7 +9,7 @@ def piramide(num):
 
 def main():
     num = int(input("Dame un número: "))
-    print(piramide(num))
+    piramide(num)
 
 
 if __name__ == "__main__":

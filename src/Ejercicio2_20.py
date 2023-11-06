@@ -14,7 +14,7 @@ def buscar(frase, letra):
 def main():
     frase = input("Dame una frase: ")
     letra = input("Dime que letra debo buscar: ")
-    print(buscar(frase, letra))
+    buscar(frase, letra)
 
 if __name__ == "__main__":
     main() 

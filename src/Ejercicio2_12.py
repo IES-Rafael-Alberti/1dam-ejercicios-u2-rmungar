@@ -8,7 +8,7 @@ def veces(palabra, letra):
 def main():
     palabra = input("Dime una palabra: ")
     letra = input("Dime una letra: ")
-    print(veces(palabra,letra))
+    veces(palabra,letra)
 
 if __name__ == "__main__":
     main()    

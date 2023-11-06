@@ -7,7 +7,7 @@ def triangulo(num):
 
 def main():
     num = int(input("Introduzca la altura del triángulo: "))
-    print(triangulo(num))
+    triangulo(num)
  
 
 

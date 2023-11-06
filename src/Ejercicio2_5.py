@@ -11,7 +11,7 @@ def main():
     cantidad = int(input("Digame la cantidad de dinero: "))
     interes = int(input("Digame el interés: "))
     num = int(input("Digame el número de años: "))
-    print(capital(cantidad, interes, num))
+    capital(cantidad, interes, num)
 
 
 if __name__ == "__main__":
